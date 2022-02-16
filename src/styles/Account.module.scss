@@ -1,0 +1,39 @@
+@import 'vars';
+@import 'mixins';
+
+.Account {
+  position: relative;
+  @include login-container;
+  align-items: start;
+  justify-items: center;
+}
+
+@media (min-width: 640px) {
+  .Account {
+    align-items: center;
+  }
+}
+
+.Account-title {
+  text-align: left;
+  margin-bottom: 42px;
+}
+
+.form-container {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  width: 300px;
+  margin-top: 82px;
+}
+
+@media (min-width: 640px) {
+  .form-container {
+    margin-top: 0;
+  }
+}
+
+.value {
+  margin: 8px 0 32px 0;
+  font-size: var(--md);
+  color: $--very-light-pink;
+}

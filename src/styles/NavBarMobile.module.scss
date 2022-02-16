@@ -1,0 +1,33 @@
+@import 'vars';
+
+.NavBarMobile {
+  display: flex;
+  align-items: center;
+  height: 60px;
+}
+
+.NavBarMobile ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.NavBarMobile a {
+  margin-right: 20px;
+  font-size: $--md;
+  text-decoration: none;
+  color: $--very-light-pink;
+}
+
+.NavBarMobile a:hover {
+  border: 2px solid $--hospital-green;
+  border-radius: 12px;
+  padding: 5px 10px;
+  color: $--hospital-green;
+}
+
+@media (min-width: 640px) {
+  .NavBarMobile {
+    display: none;
+  }
+}

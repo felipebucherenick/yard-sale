@@ -1,0 +1,51 @@
+@import 'vars';
+
+.Menu {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  z-index: 1;
+  width: 360px;
+  padding: 20px;
+  font-size: $--md;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 15%);
+  border-radius: 5px;
+  background-color: white;
+}
+
+.Menu ul {
+  list-style: none;
+}
+
+.Menu p {
+  margin-bottom: 34px;
+  color: $--black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.categories {
+  margin-bottom: 36px;
+  border-bottom: 1px solid $--very-light-pink;
+  text-align: left;
+}
+
+.categories h2 {
+  margin-bottom: 24px;
+  text-align: left;
+}
+
+.my-orders {
+  margin-bottom: 86px;
+}
+.sign-out-container p {
+  font-size: $--sm;
+  font-weight: 300;
+  cursor: initial;
+}
+
+.sign-out-container .sign-out {
+  color: $--hospital-green;
+  font-weight: bold;
+  cursor: pointer;
+}

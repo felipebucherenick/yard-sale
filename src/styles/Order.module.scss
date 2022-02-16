@@ -1,0 +1,27 @@
+@import 'vars';
+
+.Order {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.item-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-price {
+  display: flex;
+}
+
+.item-price p {
+  margin-right: 20px;
+}
+
+.item-details .item-amount {
+  font-size: $--sm;
+  color: $--very-light-pink;
+}

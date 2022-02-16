@@ -1,0 +1,23 @@
+@import 'vars';
+
+.NavBar {
+  display: none;
+}
+
+.NavBar ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.NavBar a:hover {
+  border: 2px solid $--hospital-green;
+  border-radius: 12px;
+  padding: 5px 10px;
+  color: $--hospital-green;
+}
+
+@media (min-width: 640px) {
+  .NavBar {
+    display: block;
+  }
+}

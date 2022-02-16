@@ -1,0 +1,37 @@
+@import 'vars';
+
+.HomeMenu {
+  position: absolute;
+  top: 60px;
+  right: 72px;
+  z-index: 1;
+  padding: 10px 26px;
+  color: $--black;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 15%);
+  border-radius: 5px;
+  background-color: white;
+}
+
+.HomeMenu a {
+  color: $--black;
+  font-weight: bold;
+  margin: 0;
+}
+
+.HomeMenu li {
+  margin-bottom: 20px;
+  text-align: right;
+}
+.HomeMenu-list {
+  list-style: none;
+}
+
+.sign-out-container {
+  border-top: 2px solid $--text-input-field;
+  padding-top: 20px;
+}
+
+.sign-out-container .sign-out {
+  color: $--hospital-green;
+  font-size: $--sm;
+}

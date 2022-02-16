@@ -1,0 +1,41 @@
+@import 'vars';
+
+.MyOrders {
+  display: grid;
+  width: 100%;
+  height: 100vh;
+  justify-items: center;
+}
+
+.MyOrders-container {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  margin-top: 60px;
+}
+
+@media (min-width: 640px) {
+  .MyOrders-container {
+    width: 450px;
+    margin-top: 140px;
+  }
+}
+
+.MyOrders__title {
+  display: none;
+  font-size: $--lg;
+  font-weight: bold;
+}
+
+@media (min-width: 640px) {
+  .MyOrders__title {
+    display: block;
+    margin-bottom: 60px;
+  }
+}
+
+.MyOrders-container p {
+  font-size: $--md;
+  color: $--black;
+  font-weight: bold;
+}
